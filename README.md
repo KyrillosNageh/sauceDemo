@@ -31,7 +31,7 @@ The framework is designed to:
 │ ├── checkout-info.spec.ts
 │ ├── checkout-overview.spec.ts
 │ ├── checkout-complete.spec.ts
-│ └── menu.spec.ts
+│ └── logout.spec.ts
 │
 ├── test-data/ # Externalized test data
 │ ├── users.json
