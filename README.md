@@ -1,7 +1,5 @@
 # 🧪 SauceDemo Playwright Test Automation Framework  
 
-[![Playwright Tests](https://github.com/your-username/saucedemo-playwright/actions/workflows/playwright.yml/badge.svg)](https://github.com/your-username/saucedemo-playwright/actions)  
-
 This repository contains an **end-to-end UI automation framework** for the [SauceDemo](https://www.saucedemo.com/) web application.  
 It is built using **Playwright + TypeScript** with a clean **Page Object Model (POM)** structure.  
 
@@ -13,6 +11,7 @@ The framework is designed to:
 ---
 
 ## 📂 Project Structure 
+```
 ├── pages/ # Page Object Models
 │ ├── LoginPage.ts
 │ ├── InventoryPage.ts
