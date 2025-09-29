@@ -45,8 +45,7 @@ The framework is designed to:
 ├── tsconfig.json # TypeScript configuration
 ├── package.json
 └── README.md
-
-
+```
 ---
 
 ## 🚀 Getting Started  
