@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                       // Modern JS output
+    "module": "CommonJS",                     // Node.js compatibility
+    "lib": ["ESNext", "DOM"],                 // Browser + modern APIs
+    "strict": true,                           // Enable strict checks
+    "forceConsistentCasingInFileNames": true, // Avoid filename case issues
+    "noImplicitAny": true,                    // Disallow untyped variables
+    "noUnusedLocals": true,                   // Catch dead code
+    "noUnusedParameters": true,               // Avoid unused args
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "outDir": "dist",                         // Where compiled JS goes
+    "rootDir": ".",                           // Start from project root
+    "baseUrl": ".",                           // Enable path aliases
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@tests/*": ["tests/*"]
+    }
+  },
+  "include": ["tests", "pages"],
+  "exclude": ["node_modules", "dist"]
+}
